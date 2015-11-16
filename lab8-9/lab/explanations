@@ -1,0 +1,25 @@
+-s/--silent
+Silent mode. Don't show progress meter or error messages. Makes Curl mute.
+If this option is used twice, the second will again disable mute.
+
+
+
+-X/ GET
+When used, this option will use spefiied data to be used in a HTTP GET request instead of the POST request that otherwise would be used. The data will be appended to the URL with a '?' separator. (Option added in curl 7.9)
+If used in combination with -I, the POST data will instead be appended to the URL with a HEAD request.
+
+If used multiple times, nothing special happens.
+
+-H 'Accept: application/json'
+Specifies a customer header
+--show-error
+
+1 Part 2 Qs
+a. 12 /images
+b. 13 /containers
+c. 1 /container?state=running
+d. fb434121fc77 /images | grep whalesay
+
+f. docker build -t ubuntu .
+g. 8082 /container?state=running
+
